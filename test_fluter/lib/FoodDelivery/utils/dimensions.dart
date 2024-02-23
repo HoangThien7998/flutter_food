@@ -21,13 +21,19 @@ class Dimension {
   static double Height120 = screenHeight/7.22;
 
   static double font14 = screenHeight/62.6;
+  static double font16 = screenHeight/54.19;
   static double font18 = screenHeight/48.1;
   static double font20 = screenHeight/43.35;
   static double font24 = screenHeight/36.13;
+  static double font26 = screenHeight/33.35;
 
   static double radius15 = screenHeight/57.8;
   static double radius20 = screenHeight/43.35;
 
   //page food detail
   static double FoodImgSize = screenHeight/2.17;
+  static double FoodInfoSize = screenHeight/2.17 - screenHeight/14.45;
+
+  //splash page
+  static double SplashSize = screenWidth/1.648;
 }

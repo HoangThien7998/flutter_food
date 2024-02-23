@@ -55,8 +55,8 @@ class _ExpandableText extends State<ExpandableText> {
             },
             child: Row(
               children: [
-                SmallText(text: textShowMore,color: AppColors.mainColor,size: 16,),
-                Icon(iconShowMore,color: AppColors.mainColor,size: 16,)
+                SmallText(text: textShowMore,color: AppColors.mainColor,size: Dimension.font16,),
+                Icon(iconShowMore,color: AppColors.mainColor,size: Dimension.font16,)
               ],
             ),
           )

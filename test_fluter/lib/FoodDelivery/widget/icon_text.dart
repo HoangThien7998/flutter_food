@@ -17,7 +17,7 @@ class IconAndTextWigdet extends StatelessWidget{
   Widget build(BuildContext context) {
     return  Row(
         children: [
-          Icon(icon,color: coloricon,size: 25,),
+          Icon(icon,color: coloricon,size: 20,),
           SizedBox(width: 2,),
           SmallText(text: text,color: AppColors.textColor,size: size==0?Dimension.font14:size,),
           SizedBox(width: Dimension.Width10),
